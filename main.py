@@ -32,7 +32,7 @@ class UserTable(Base):
     is_active = Column(Boolean, default=True)
 
 
-#Base.metadata.create_all(engine, checkfirst=False)
+# Base.metadata.create_all(engine, checkfirst=False)
 
 
 def get_users(session: Session) -> list[UserTable]:
@@ -56,9 +56,8 @@ class User(BaseModel):
     mail: str
     hashed_password: str
 
-    model_config = ConfigDict(
-            from_attributes=True
-        )
+    model_config = ConfigDict(from_attributes=True)
+
 
 def get_session() -> Session:
     return SessionLocal()
