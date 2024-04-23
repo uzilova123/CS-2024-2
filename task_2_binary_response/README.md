@@ -17,3 +17,5 @@
 2. Фреймворк: https://flask.palletsprojects.com/en/3.0.x/
 3. L-System: https://github.com/maruschin/l-system/tree/master
 4. http://algorithmicbotany.org/papers/abop/abop.pdf
+5. https://inconvergent.net/generative/
+6. https://github.com/inconvergent?tab=repositories
